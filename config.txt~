@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:vijay21bharadwaz/myprojecthub.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+    remote = vijay
+    merge = git@github.com:vijay21bharadwaz/myprojecthub.git
+    rebase = true
+
+    remote "<vijay>"
+    url = git@github.com:vijay21bharadwaz/myprojecthub.git
+    fetch = <refspec>
